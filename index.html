@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+  <!--Author: Muhammad Fauzan Adzyma Hele-->
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome To Muhammad Fauzan Adzyma Hele's Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/Iconslogo/rsz_logo_1-150x150.png" />
+
+
+
+    <title>Fauzan - Tech Lover, App and Application Developer</title>
+    <meta charset="utf-8" />
+    <meta lang="en" />
+    <meta name="author" content="Muhammad Fauzan Azyma Hele" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/Iconslogo/rsz_logo_1-150x150.png" />
+    <!--The below code is for importing google web fonts in html-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tamma|Kelly+Slab|Neucha|Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <style>
+    /*Internal CSS*/
+    #time {
+      float: right;
+      font-size: 30px;
+      margin: 10px;
+      font-family: "kelly slab";
+      margin-right: 20px;
+      font-weight: bold;
+    }
+    @media only screen and (max-width: 800px) {
+      #greet {
+        visibility: hidden;
+      }
+      #time {
+        margin: auto;
+        font-family: "kelly slab";
+      }
+    }
+    #greet {
+      font-size: 25px;
+      font-family: audiowide;
+      position: absolute;
+      left: 50%;
+      top: 2%;
+      font-weight: bold;
+    }
+
+    #center {
+      text-align: center;
+      padding: 30px;
+    }
+  </style>
+  <body>
+    <!--Header Section-->
+    <div class="header">
+      <!--Inline css in below line-->
+      <span
+        style="font-size: 40px; cursor: pointer; margin-left: 10px"
+        onclick="openNav()"
+        id="open"
+        >&#9776;
+      </span>
+      <a href="home.html"><img src="images/Iconslogo/home logo.jpg" /></a>
+      <span class="greeting" id="greet"></span>
+      <span id="time"></span>
+    </div>
+
+    <!--Navigation Section-->
+    <div id="myNav" class="navbar">
+      <a
+        href="javascript:void(0)"
+        class="closebtn"
+        onclick="closeNav()"
+        id="close"
+        >&times;</a
+      >
+      <div class="navbar-content">
+        <a href="#home" id="active"  onclick="toggleNavbar()">#Home</a></li>
+        <a href="#about" onclick="toggleNavbar()">About</a></li>
+        <a href="#Skill"  onclick="toggleNavbar()">Skills</a></li>	
+		    <a href="#Hobby"  onclick="toggleNavbar()">Hobby</a></li>	
+        <a href="#contact" onclick="toggleNavbar()">Contact</a></li>
+		
+      </div>
+    </div>
+  </div>
+
+    <!--Banner Section-->
+    <div class="banner-area" id="home" style="background-image: 
+    url(&quot;./images/photo1.jpg&quot;);">
+      <div class="title-image"></div>
+      <div class="title-name">
+        <p class="name">
+          <span id="name">Muhammad Fauzan Adzyma Hele</span><br />
+          <span class="subtitle1" id="subtitle1">Informatics UMM </span>
+        </p>
+      </div>
+    </div>
+
+    <!--Services Section-->
+    <div class="service-area" id="services">
+      <div class="text-part">
+        <h1 id="center" >What can I do?</h1>
+        <div class="container">
+          <div class="box">
+            <div class="icon"></div>
+            <div class="content">
+              <h3>Website Development</h3>
+              <p>
+                Can design, and develop attractive, secure, fast, multi
+                functional and responsive websites for organization or
+                individuals according to users requirement.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"></div>
+            <div class="content">
+              <h3>Mobile App Development</h3>
+              <p>
+                Can create native, smooth, user friendly application for android
+                and IOS devices and publish them in Google Play Store and App
+                Stores.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"></div>
+            <div class="content">
+              <h3>Domain & Hosting</h3>
+              <p>
+                Having own hosting servers, we can provide ssd and cloud hosting
+                for secure and fast websites and register your custom domain at
+                minimal cost with 24/7 support.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--About Section-->
+    <div class="about-area" id="about">
+      <div class="text-part-abt">
+        <h1 style="text-align: center; padding-bottom: 10px">
+          <span
+            style="
+              font-size: 80px;
+              text-decoration: none;
+              border-bottom: 2px solid rgb(230, 173, 30);
+              color: rgb(230, 173, 30);
+            "
+            >A</span
+          >bout Me
+        </h1>
+        <div class="about">
+          <div class="abt-content">
+            <div class="rem-part">
+              <div class="social-media">
+                <div class="icons">
+                  <a
+                    href="https://www.facebook.com/Muhamad Fauzan"target="_blank"
+                    ><img src="images/facebook.png"
+                  /></a>
+                  <a href="https://www.instagram.com/fauzanhele_/"target="_blank"
+                    ><img src="images/instagram.png"
+                  /></a>
+                </div>
+              </div>
+              <div class="left-part">
+                <span class="h2"
+                  >I'm
+                  <span style="color: orangered">Fauzan Hele</span></span
+                ><br />
+                <span class="h3">Developer, Freelancer & Programmer</span>
+                <hr />
+                <p style="font-size: 25px">
+                  I am a student currently pursuing higher education at 
+                  the University of Muhammadiyah Malang (UMM). I majored in 
+                  Informatics, which shows my interest and commitment in 
+                  understanding and developing information technology.
+                I enjoy designing and coding mobile applications, websites, 
+                  surfing and freelancing.
+                </p>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <!--skills section-->
+
+<div class="skill-section" id="Skill">
+  <h2>My Skills & Abilities</h2>
+  <div class="skill-part">
+      <div class="prgm-skill">
+          <h3>Programming</h3>
+          <p>Java</p>
+          <div class="container-skill">
+              <div class="skills java">60%</div>
+          </div>
+          <p>Dart</p>
+          <div class="container-skill">
+              <div class="skills dart">55%</div>
+          </div>
+          <p>Javascript</p>
+          <div class="container-skill">
+              <div class="skills js">60%</div>
+          </div>
+          <p>PHP</p>
+          <div class="container-skill">
+              <div class="skills php">50%</div>
+          </div>
+          <p>MySQL</p>
+          <div class="container-skill">
+              <div class="skills sql">70%</div>
+          </div>
+      </div>
+
+      <div class="design-skill">
+          <h3>Designing</h3>
+          <p>HTML</p>
+          <div class="container-skill">
+              <div class="skills html">90%</div>
+          </div>
+          <p>CSS</p>
+          <div class="container-skill">
+              <div class="skills css">80%</div>
+          </div>
+          <p>Bootstrap</p>
+          <div class="container-skill">
+              <div class="skills bootstrap">70%</div>
+          </div>
+          <p>Photoshop</p>
+          <div class="container-skill">
+              <div class="skills photoshop">75%</div>
+          </div>
+          <p>Premiere Pro</p>
+          <div class="container-skill">
+              <div class="skills prepro">50%</div>
+          </div>
+      </div>
+  </div>
+</div>
+
+    <!--Hobby Section-->
+    <div class="hobby-area" id="Hobby">
+      <div class="testimonials">
+        <div class="inner">
+          <h1>Hobby</h1>
+          <div class="border"></div>
+          <div class="row">
+            <div class="col">
+              <div class="Hobby">
+                <div class="head-testi">
+                  <img src="images/bultangs.jpg" alt="the1st" />
+                  <div class="name-testi">Badminton</div>
+                  <div class="subname-testi">
+                   The Championship  <br />1st
+                  </div>
+                  <div class="stars">
+                    <img src="images/Iconslogo/star_gold.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="Hobby">
+                <div class="head-testi">
+                  <img src="images/footbal.jpg" alt="footbal club" />
+                  <div class="name-testi">futssal</div>
+                  <div class="subname-testi">semi-final<br />3nd</div>
+                  <div class="stars">
+                    <img src="images/Iconslogo/star_gold.png" />
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!--contact section-->
+
+    <div class="divider"></div>
+    <div class="contact-area" id="contact">
+      <div class="text-part">
+        <h1>Contact Me</h1>
+        <div class="cont-form">
+          <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Name *" /><br />
+            <input type="text" id="email" placeholder="Email *" />
+            <input type="text" id="subject" placeholder="Subject *" /><br />
+            <input
+              type="text"
+              placeholder="Phone No (Optional)"
+              id="phone"
+            /><br />
+            <textarea id="message" placeholder="Message *"></textarea><br />
+            <button type="submit" id="btn-submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta hide" id="goup">
+      <a href="#home"><img src="images/Iconslogo/arrup.png" /></a>
+    </div>
+
+ 
+    <script>
+      //handles goup button
+      myID = document.getElementById("goup");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "cta show";
+        } else {
+          myID.className = "cta hide";
+        }
+      };
+      window.addEventListener("scroll", myScrollFunc);
+
+      //The below line dynamically change the name in banner area.
+      document.getElementById("iden-name").innerHTML = "Fauzan Hele";
+
+      /*
+                The below code is used to slide/change image infinitely using for loop.
+                A single image will be available only for 2.5s and after that it automatically changes another image
+            */
+      var slideIndex = 0;
+      showSlides();
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("imgrel");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2500);
+      }
+
+      //The below is used to make navigation bar sticky
+      //when we scroll up the navigation bar will stick on top of page
+      window.onscroll = function () {
+        stickFunction();
+      };
+      var navbar = document.getElementById("myNav");
+      var sticky = navbar.offsetTop;
+
+      function stickFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+
+<script src="js/formValidate.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>
